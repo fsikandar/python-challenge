@@ -46,9 +46,11 @@ print(f'min_change: ${min_change}')
 
 #finding month associated with min and max
 print(df.loc[df['change']==1862002.0])
+
 print('Greatest increase in profits: Aug-16 ($1862002.0)')
 
 print(df.loc[df['change']==-1825558.0])
+
 print('Greatest decrease in profits: Feb-14 (-$1825558.0)')
 
 
